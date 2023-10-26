@@ -1,6 +1,6 @@
 FROM openjdk:11-slim
-COPY HelloWorld.java .
-RUN javac HelloWorld.java 
+COPY App.java .
+RUN javac App.java
 CMD java HelloWorld
 
 
